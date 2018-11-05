@@ -23,7 +23,7 @@ If you would like to see the steps of everything happening behind the scenes, ch
 
 ## STEPS
 
-![](img/steps.png)
+![](img/hyperether-steps.png)
 
 <hr>
 
@@ -52,7 +52,7 @@ peer chaincode instantiate -n evmcc -v 0 -C mychannel -c '{"Args":[]}' -o ordere
 
 ./proxy.sh
 
-# The fab proxy will be available at `localhost:5000`.
+# The fab3 proxy will be available at `localhost:5000`.
 ```
 
 * <b>STEP 3 - In a separate terminal, go back to the project's folder and run the web app locally by doing:</b>
