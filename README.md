@@ -4,7 +4,7 @@ Simple Web3 Hyperledger Fabric - Hyperledger [Burrow EVM](https://github.com/hyp
 
 With few clicks, run smart contracts from Solidity onto Ethereum Virtual Machine (EVM) that is embedded into Hyperledger Fabric to compiles these contracts as bytecode, of course, with the help of the chaincode.
 
-* The following architecture puts together an understanding of the component blocks that are making the application work:
+<hr>
 
 <img src="img/architecture.png" width="600" height="400">
 
