@@ -16,7 +16,7 @@ Make sure to have the following prerequisite tools are installed on your machine
 
 These scripts in this project have been tried and are macOS compatible but if there are machine issues, then follow the steps [here](https://github.com/hyperledger/fabric-chaincode-evm/blob/master/examples/EVM_Smart_Contracts.md) to bring up __manually__ the needed containers, peers and fab3 up and running.
 
-<u>_Note:_</u> Take into consideration that running `./start/sh` will remove existing docker containers and images. If there are no containers or images on your machine, you can comment out the docker `stop`, `rm` and `rmi` in `start.sh`.
+<u>_Note:_</u> Take into consideration that running `./start/sh` will remove existing docker containers and images. If there are no containers or images on your machine, you can comment out the docker `stop`, `rm` and `rmi` in `start.sh`. The script is removing and adding docker compose yaml file, adding needed repos for this project and `chmod` is to access/enable a file in the cloned repos to be executed.
 
 If you would like to see the steps of everything happening behind the scenes, check [here](ingredients.md).
 
