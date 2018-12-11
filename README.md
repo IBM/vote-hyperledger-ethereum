@@ -21,7 +21,7 @@ These scripts in this project have been tried and are macOS compatible but if th
 If you would like to see the steps of everything happening behind the scenes, check [here](ingredients.md).
 
 
-## STEPS
+## STEPS (__OR__ for `manual steps` - click [here](manual_steps.md))
 
 ![](img/hyperether-steps.png)
 
