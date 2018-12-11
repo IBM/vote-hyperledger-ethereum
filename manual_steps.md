@@ -33,11 +33,11 @@ cd $HOME/go/src/github.com/hyperledger/fabric-samples/first-network
 
 ###### copy/paste under `volumes:` in `docker-compose-cli.yaml` to include the following line:
 ```bash
-`- ./../../fabric-chaincode-evm:/opt/gopath/src/github.com/hyperledger/fabric-chaincode-evm`
+- ./../../fabric-chaincode-evm:/opt/gopath/src/github.com/hyperledger/fabric-chaincode-evm
 ```
-
+<hr>
 ![](img/compose-cli.png)
-
+<hr>
 
 ###### fabric network execution
 ```bash
