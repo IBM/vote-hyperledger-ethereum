@@ -4,9 +4,9 @@ set -e
 
 # Cleanup any existing local docker images, volumes & containers
 echo "Removing existing containers"
-docker stop $(docker ps -q)
-docker rm $(docker ps -aq)
-docker rmi $(docker images -q) -f
+docker stop $(docker ps -q) || true
+#docker rm $(docker ps -aq)
+#docker rmi $(docker images -q) -f
 
 # export path to go folder
 export GOPATH=$HOME/go
