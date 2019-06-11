@@ -58,8 +58,9 @@ peer chaincode instantiate -n evmcc -v 0 -C mychannel -c '{"Args":[]}' -o ordere
 * <b>STEP 3 - In a separate terminal, go back to the project's folder and run the web app locally by doing:</b>
 
 ```javascript
-1) npm install
-2) npm start
+cd web3-fabric-voting-dapp
+npm install
+npm start
 ```
 
 Open your browser at [localhost:3000](http://localhost:3000) to view the app.

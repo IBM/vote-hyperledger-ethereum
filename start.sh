@@ -22,6 +22,7 @@ else
   sudo mkdir -p $GOROOT
   chmod +x $GOROOT
 fi
+git clone https://github.com/hovig/web3-fabric-voting-dapp.git || true
 cd $GOROOT
 echo "$GOROOT"
 
@@ -31,10 +32,10 @@ if [ ! -d "$DIR_FABRIC" ]; then
 fi
 echo "fabric-samples exists"
 
-if [ ! -d "$DIR_APP" ]; then
+#if [ ! -d "$DIR_APP" ]; then
   # clone the voting repo
-  git clone https://github.com/hovig/web3-fabric-voting-dapp.git
-fi
+#git clone https://github.com/hovig/web3-fabric-voting-dapp.git || true
+#fi
 echo "web3-fabric-voting-dapp exists"
 chmod 777 fabric-samples
 cd fabric-samples

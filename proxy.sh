@@ -4,15 +4,15 @@ set -e
 
 GOROOT=$HOME/go/src/github.com/hyperledger
 
-# export fabric proxy settings
-export FABPROXY_CONFIG=$GOROOT/fabric-chaincode-evm/examples/first-network-sdk-config.yaml
-export FABPROXY_USER=User1
-export FABPROXY_ORG=Org1
-export FABPROXY_CHANNEL=mychannel
-export FABPROXY_CCID=evmcc
-export PORT=5000
+export FAB3_CONFIG=$GOROOT/fabric-chaincode-evm/examples/first-network-sdk-config.yaml
+export FAB3_USER=User1
+export FAB3_ORG=Org1
+export FAB3_CHANNEL=mychannel
+export FAB3_CCID=evmcc
+export FAB3_PORT=5000
 
-# build & start 
+
+# build & start
 cd $GOROOT/fabric-chaincode-evm
-go build -o fab3 ./fabproxy/cmd
-./fab3
+make fab3
+bin/fab3
